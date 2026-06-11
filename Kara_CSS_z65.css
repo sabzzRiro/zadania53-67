@@ -1,0 +1,36 @@
+div#pierwszy_karako{
+    margin: 0 auto;
+    background-color: lightblue;
+    width: 744pt;
+    border: 5px;
+    border-radius: 15mm;
+    border-color: navy;
+    border-style: solid;
+}
+p{
+    font-size: 11pt;
+}
+p:first-child{
+    font-size: 7mm;
+    font-style: italic;
+}
+
+div#drugi_karako{
+    margin: 0 auto;
+    background-color: pink;
+    width: 944pt;
+    border: 3px;
+    border-radius: 13mm;
+    border-color: black;
+    border-style: solid;
+}
+
+div#trzeci_karako{
+    background-color: lightgreen;
+    width: 1144pt;
+    border: 7px;
+    border-radius: 19mm;
+    border-color: purple;
+    border-style: solid;
+}
+/* Karako z65_css */
