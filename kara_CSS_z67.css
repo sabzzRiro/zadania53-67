@@ -1,0 +1,56 @@
+body {
+	font-family: Arial;
+	background-color: #eeeeee;
+	margin: 30px;
+}
+
+h1 {
+	color: navy;
+	text-align: center;
+}
+
+h2 {
+	color: darkred;
+}
+
+table {
+	width: 100%;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: lightblue;
+	font-size: 20px;
+}
+
+td {
+	font-size: 18px;
+	padding: 10px;
+}
+
+.gradient1 {
+	margin-top:  30px;
+	width: 400px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	
+	background: linear-gradient(to right, red, orange, yellow);
+}
+
+.gradient2 {
+	margin-top:  30px;
+	width: 400px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	
+	background: radial-gradient(circle, blue, purple, black);
+}
+
+/* Karako Z67_css  */

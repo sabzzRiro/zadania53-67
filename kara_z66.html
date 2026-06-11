@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Karako Z66_html</title>
+	
+	<style>
+		body{
+			font-family:  Arial, sans-serif;
+			margin: 30px;
+			line-height: 1.6;
+		}
+		
+		h1{
+			color: darkblue;
+		}
+		
+		.firstline::first-line{
+			color: red;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		
+		.beforeafter::before{
+			content: "* ";
+			color: green;
+			font-size: 24px;
+		}
+		
+		.beforeafter::before{
+			content: " *";
+			color: blue;
+			font-size: 24px;
+		}
+		
+		.firstletter::first-letter{
+			color: purple;
+			font-size: 40px;
+			font-weight: bold;
+		}
+		
+		.box{
+			border: 2px solid black;
+			padding:  15px;
+			margin-bottom: 25px;
+		}
+	</style>
+</head>
+
+<body>
+
+<h1>Pseudoelementy CSS</h1>
+
+<div class="box">
+	<h2>::first-line</h2>
+	
+	<p>
+		Pseoudoelement <b>::first-line</b> służy do farmatowania pierwszej linii tekstu 
+		w akapicie.  Można zmieiać kolor, wielkość czcionki lub styl tylko dla  pierwszej linii.
+	</p>
+	
+	<p class="firstline">
+		To jest przykładowy tekst pokazujący działanie  pseudoelementu  first-line.
+		Pierwsza linia tego akapitu będzie miała inny kolor oraz większą czcionkę.
+	</p>
+</div>
+
+<div class="box">
+	<h2>::before oraz ::after</h2>
+	
+	<p>
+		Pseudoelementy  <b>::before</b>  i <b>::after</b> pozwalają dodawać  zawartość
+		przed lub poelemencie HTML bez wpisywania jejw kodzie strony.
+	</p>
+	
+	<p class="beforeafter">
+		Przykład działania pseudoelementów befor i after.
+	</p>
+</div>
+
+<div  class="box">
+	<h2>::first-letter</h2>
+	
+	<p>
+		Pseudoelement <b>::first-letter</b> umożliwia formatowania  pierwszej litery
+		w akapicie< np. zmianę koloru< rozmiaru lub pogrubnienia.
+	</p>
+	
+	<p class="firstletter">
+		Ten  akapit pokazuje  działanie pseudoelementu first-letter.
+	</p>
+</div>
+
+</body>
+</html>
+
+<!-- Karako Z66_html -->
